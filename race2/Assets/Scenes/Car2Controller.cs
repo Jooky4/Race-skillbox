@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CarController : MonoBehaviour {
+public class Car2Controller : MonoBehaviour {
 
     public AxleInfo[] carAxis = new AxleInfo[2];
     public float carSpeed;
