@@ -269,6 +269,7 @@ MonoBehaviour:
     motor: 1
   carSpeed: 800
   steerAngle: 60
+  additionalWheelAngle: {x: 0, y: 0, z: 0}
 --- !u!1 &3354082254749362098
 GameObject:
   m_ObjectHideFlags: 0

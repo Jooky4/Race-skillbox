@@ -29,7 +29,7 @@ public class FinishRed : MonoBehaviour
                 && (SceneManager.GetActiveScene().name == "Level1"))
             {
                 scriptGameManager.GetComponent<GameManager>().textEndGame.gameObject.SetActive(true);
-                scriptGameManager.GetComponent<GameManager>().textEndGame.text = $"Лидирует красный!";
+                scriptGameManager.GetComponent<GameManager>().textEndGame.text = $"Красный быстрее!";
                 Invoke("NextLevel2", 3f);
             }
             // Проверка условия победы и текущего уровня
@@ -37,7 +37,7 @@ public class FinishRed : MonoBehaviour
                 && (SceneManager.GetActiveScene().name == "Level2"))
             {
                 scriptGameManager.GetComponent<GameManager>().textEndGame.gameObject.SetActive(true);
-                scriptGameManager.GetComponent<GameManager>().textEndGame.text = $"Лидирует красный!";
+                scriptGameManager.GetComponent<GameManager>().textEndGame.text = $"Красный быстрее!";
                 Invoke("NextLevel3", 3f);
             }
             // Если набрано необходимое количество очков, то конец игры
@@ -54,7 +54,7 @@ public class FinishRed : MonoBehaviour
                 && (SceneManager.GetActiveScene().name == "Level1"))
             {
                 scriptGameManager.GetComponent<GameManager>().textEndGame.gameObject.SetActive(true);
-                scriptGameManager.GetComponent<GameManager>().textEndGame.text = $"Лидирует синий!";
+                scriptGameManager.GetComponent<GameManager>().textEndGame.text = $"Синий быстрее!";
                 Invoke("NextLevel2", 3f);
             }
             // Проверка условия победы и текущего уровня
@@ -62,7 +62,7 @@ public class FinishRed : MonoBehaviour
                 && (SceneManager.GetActiveScene().name == "Level2"))
             {
                 scriptGameManager.GetComponent<GameManager>().textEndGame.gameObject.SetActive(true);
-                scriptGameManager.GetComponent<GameManager>().textEndGame.text = $"Лидирует синий!";
+                scriptGameManager.GetComponent<GameManager>().textEndGame.text = $"Синий быстрее!";
                 Invoke("NextLevel3", 3f);
             }
             // Если набрано необходимое количество очков, то конец игры
