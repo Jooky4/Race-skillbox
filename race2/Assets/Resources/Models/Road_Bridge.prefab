@@ -55,6 +55,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -79,6 +80,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &4897198808352859779
 GameObject:
   m_ObjectHideFlags: 0
@@ -123,6 +125,10 @@ PrefabInstance:
       value: Road_Bridge
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 3f423085b18671e4cb9243997eb68a66, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 3f423085b18671e4cb9243997eb68a66, type: 3}
       propertyPath: m_LocalPosition.x
       value: -75.62
       objectReference: {fileID: 0}
@@ -135,6 +141,10 @@ PrefabInstance:
       value: 165.5947
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 3f423085b18671e4cb9243997eb68a66, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 3f423085b18671e4cb9243997eb68a66, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -145,14 +155,6 @@ PrefabInstance:
     - target: {fileID: 400002, guid: 3f423085b18671e4cb9243997eb68a66, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 3f423085b18671e4cb9243997eb68a66, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 3f423085b18671e4cb9243997eb68a66, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 3f423085b18671e4cb9243997eb68a66, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

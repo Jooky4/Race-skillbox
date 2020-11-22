@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Finish_1
+  - Finish_2
+  - CarPlayer_1
+  - CarPlayer_2
+  - CarRed
+  - CarBlue
   layers:
   - Default
   - TransparentFX
