@@ -31,11 +31,74 @@ public class GameManager : MonoBehaviour
     [SerializeField] private float timerGame = 5.0f;    // Для таймера
     private bool isGame = false;                        // Зависит от таймера
 
-    #endregion
-    
+   #endregion
+
     //------------- Update -----------------------------------------------------
     protected void Update()
         {
+
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            if (AudioManager.GetClips().Length > 0)
+            {
+                AudioManager.PlaySound(AudioManager.GetClips()[0]);
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            if (AudioManager.GetClips().Length > 0)
+            {
+                AudioManager.PlaySound(AudioManager.GetClips()[0]);
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            if (AudioManager.GetClips().Length > 0)
+            {
+                AudioManager.PlaySound(AudioManager.GetClips()[0]);
+            }
+        }
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            if (AudioManager.GetClips().Length > 2)
+            {
+                AudioManager.PlaySound(AudioManager.GetClips()[2]);
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            if (AudioManager.GetClips().Length > 1)
+            {
+                AudioManager.PlaySound(AudioManager.GetClips()[1]);
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            if (AudioManager.GetClips().Length > 1)
+            {
+                AudioManager.PlaySound(AudioManager.GetClips()[1]);
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            if (AudioManager.GetClips().Length > 1)
+            {
+                AudioManager.PlaySound(AudioManager.GetClips()[1]);
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            if (AudioManager.GetClips().Length > 2)
+            {
+                AudioManager.PlaySound(AudioManager.GetClips()[2]);
+            }
+        }
 
         if (isGame == false)
             {
