@@ -2131,9 +2131,9 @@ MonoBehaviour:
   textCircleRed: {fileID: 1295852709}
   textCircleBlue: {fileID: 1534222157}
   textTimer: {fileID: 1080315544}
-  carPrefabRed: {fileID: 3354082254532410077, guid: 325d792fcde9a5b4284ca6a33d23e425,
+  carPrefabRed: {fileID: 1857562545172608866, guid: 657f27d2f7abf954ba55e3c529784de8,
     type: 3}
-  carPrefabBlue: {fileID: 5337477624342052548, guid: cadd9324c3e219a43a1a97607774b8f8,
+  carPrefabBlue: {fileID: 8863685658546890315, guid: bb7f709bfcc0de74d977db174f5e1fb7,
     type: 3}
   colliderFinish: {fileID: 7260870719231442236, guid: 2719cbd8ab5171947957ad107b38d6b1,
     type: 3}
@@ -2687,7 +2687,7 @@ PrefabInstance:
     - target: {fileID: 7661135882193963432, guid: 67560c9d45fca5e4e9e61291874b091d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 2.6
       objectReference: {fileID: 0}
     - target: {fileID: 7661135882193963432, guid: 67560c9d45fca5e4e9e61291874b091d,
         type: 3}
@@ -2761,7 +2761,7 @@ PrefabInstance:
     - target: {fileID: 8712821045624762471, guid: 4de12357dbe7da248a5c5a9b6bc50b0a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 2.6
       objectReference: {fileID: 0}
     - target: {fileID: 8712821045624762471, guid: 4de12357dbe7da248a5c5a9b6bc50b0a,
         type: 3}

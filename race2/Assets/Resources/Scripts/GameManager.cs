@@ -44,12 +44,9 @@ public class GameManager : MonoBehaviour
         textCircleBlue.text = WinVar.circlePlayerBlue.ToString(); // Вывод очков на экран синего игрока
         textTimer.text = timerGame.ToString("#");     // Вывод таймера на экран
         
-        //------------------- Update: возвращает на экран меню при нажатии на кнопку Esc -----------------
-        if (Input.GetKey("escape")) // Если нажата кнопка Esc (Escape)
+        if (Input.GetKey("escape")) // Если нажата кнопка Esc
         {
-            WinVar.circlePlayerBlue = 0;                        // Обнуление прогресса игроков
-            WinVar.circlePlayerRed = 0;
-            SceneManager.LoadScene("MainScene");       // Возвращает на экран меню
+            ReturnStart(); // Возвращает на экран меню
         }
 
     }
@@ -57,7 +54,7 @@ public class GameManager : MonoBehaviour
     //--------------- CarsStart: метод блокировки старта игры ---------------------------------------------
     private void CarsStart()
     {
-        if (timerGame <= 0)                              // Если отсчёт таймера закончился
+        if (timerGame <= 0 && isGame == false)           // Запуск спавна машин при таймере = 5 секундам
         {
             isGame = true;
             textTimer.gameObject.SetActive(false); // Отключение текста таймера
@@ -73,14 +70,9 @@ public class GameManager : MonoBehaviour
     //-------------- StartSpawnCars: метод появление машин в точках спавна -----------------------------
     public void StartSpawnCars() 
     {
-        
+        GameObject.Find("MainCamera").SetActive(false);              // Отключение главной камеры
         Instantiate(carPrefabRed, spawnPosRed.position, Quaternion.identity);   // Спавн красной машины
         Instantiate(carPrefabBlue, spawnPosBlue.position, Quaternion.identity); // Спавн синей машины 
-        //GameObject.Find("MainCamera").SetActive(false);
-
-        // спавн синей машины и её разворот на 180 градусов
-      /*  Instantiate(carPrefabBlue, spawnPosBlue.position, 
-            Quaternion.FromToRotation(UnityEngine.Vector3.left, UnityEngine.Vector3.right));*/
     }
 
     //-------------- EndGame: метод завершения игры ------------------------------------------------------
