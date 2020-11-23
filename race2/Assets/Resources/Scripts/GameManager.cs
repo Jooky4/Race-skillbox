@@ -1,12 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
 using Vector3 = System.Numerics.Vector3;
-using System;
+using UnityEngine.Animations;
+using UnityEngine.Playables;
 
 public class GameManager : MonoBehaviour
 {
@@ -28,13 +30,14 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private float timerGame = 5.0f;    // Для таймера
     private bool isGame = false;                        // Зависит от таймера
-    
-    #endregion
 
+    #endregion
+    
     //------------- Update -----------------------------------------------------
     protected void Update()
         {
-            if (isGame == false)
+
+        if (isGame == false)
             {
                 timerGame -= Time.deltaTime;                       // Отсчёт таймера
                 CarsStart();
@@ -51,7 +54,7 @@ public class GameManager : MonoBehaviour
 
     }
 
-    //--------------- CarsStart: метод блокировки старта игры ---------------------------------------------
+    //--------------- CarsStart: метод блокировки старта игры ------------------------------------------
     private void CarsStart()
     {
         if (timerGame <= 0 && isGame == false)           // Запуск спавна машин при таймере = 5 секундам
@@ -75,7 +78,7 @@ public class GameManager : MonoBehaviour
         Instantiate(carPrefabBlue, spawnPosBlue.position, Quaternion.identity); // Спавн синей машины 
     }
 
-    //-------------- EndGame: метод завершения игры ------------------------------------------------------
+    //-------------- EndGame: метод завершения игры ----------------------------------------------------
     public void EndGame()
     {
         if ((WinVar.circlePlayerRed <= WinVar.totalCircle) 
@@ -95,7 +98,7 @@ public class GameManager : MonoBehaviour
             Invoke("ReturnStart", 3f);          // Задержка на 3 секунды
         }
     }
-    //--------------- ReturnStart: метод перехода в главное меню ---------------------------------------------
+    //--------------- ReturnStart: метод перехода в главное меню ---------------------------------------
     private void ReturnStart()                     
     {
         WinVar.circlePlayerBlue = 0;                                  // Обнуление прогресса игроков
