@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+using System;
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
 =======
 using System;
 >>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
@@ -16,7 +20,12 @@ using UnityEngine.UIElements;
 using Vector3 = System.Numerics.Vector3;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 using System;
+=======
+using UnityEngine.Animations;
+using UnityEngine.Playables;
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
 =======
 using UnityEngine.Animations;
 using UnityEngine.Playables;
@@ -48,6 +57,7 @@ public class GameManager : MonoBehaviour
     private bool isGame = false;                        // Зависит от таймера
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     
     #endregion
 
@@ -56,6 +66,8 @@ public class GameManager : MonoBehaviour
         {
             if (isGame == false)
 =======
+=======
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
 =======
 >>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
 
@@ -67,6 +79,9 @@ public class GameManager : MonoBehaviour
 
         if (isGame == false)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
+=======
 >>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
 =======
 >>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
@@ -79,6 +94,7 @@ public class GameManager : MonoBehaviour
         textCircleBlue.text = WinVar.circlePlayerBlue.ToString(); // Вывод очков на экран синего игрока
         textTimer.text = timerGame.ToString("#");     // Вывод таймера на экран
         
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         //------------------- Update: возвращает на экран меню при нажатии на кнопку Esc -----------------
@@ -97,10 +113,16 @@ public class GameManager : MonoBehaviour
         {
             ReturnStart(); // Возвращает на экран меню
 >>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
+=======
+        if (Input.GetKey("escape")) // Если нажата кнопка Esc
+        {
+            ReturnStart(); // Возвращает на экран меню
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
         }
 
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     //--------------- CarsStart: метод блокировки старта игры ---------------------------------------------
@@ -110,11 +132,16 @@ public class GameManager : MonoBehaviour
 =======
 =======
 >>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
+=======
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
     //--------------- CarsStart: метод блокировки старта игры ------------------------------------------
     private void CarsStart()
     {
         if (timerGame <= 0 && isGame == false)           // Запуск спавна машин при таймере = 5 секундам
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
+=======
 >>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
 =======
 >>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
@@ -135,6 +162,7 @@ public class GameManager : MonoBehaviour
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         
         Instantiate(carPrefabRed, spawnPosRed.position, Quaternion.identity);   // Спавн красной машины
         Instantiate(carPrefabBlue, spawnPosBlue.position, Quaternion.identity); // Спавн синей машины 
@@ -149,6 +177,8 @@ public class GameManager : MonoBehaviour
 =======
 =======
 >>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
+=======
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
         GameObject.Find("MainCamera").SetActive(false);              // Отключение главной камеры
         Instantiate(carPrefabRed, spawnPosRed.position, Quaternion.identity);   // Спавн красной машины
         Instantiate(carPrefabBlue, spawnPosBlue.position, Quaternion.identity); // Спавн синей машины 
@@ -156,6 +186,9 @@ public class GameManager : MonoBehaviour
 
     //-------------- EndGame: метод завершения игры ----------------------------------------------------
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
+=======
 >>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
 =======
 >>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
@@ -180,7 +213,11 @@ public class GameManager : MonoBehaviour
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     //--------------- ReturnStart: метод перехода в главное меню ---------------------------------------------
+=======
+    //--------------- ReturnStart: метод перехода в главное меню ---------------------------------------
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
 =======
     //--------------- ReturnStart: метод перехода в главное меню ---------------------------------------
 >>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5

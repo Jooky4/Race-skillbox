@@ -2133,9 +2133,15 @@ MonoBehaviour:
   textTimer: {fileID: 1080315544}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   carPrefabRed: {fileID: 3354082254532410077, guid: 325d792fcde9a5b4284ca6a33d23e425,
     type: 3}
   carPrefabBlue: {fileID: 5337477624342052548, guid: cadd9324c3e219a43a1a97607774b8f8,
+=======
+  carPrefabRed: {fileID: 1857562545172608866, guid: 657f27d2f7abf954ba55e3c529784de8,
+    type: 3}
+  carPrefabBlue: {fileID: 8863685658546890315, guid: bb7f709bfcc0de74d977db174f5e1fb7,
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
 =======
   carPrefabRed: {fileID: 1857562545172608866, guid: 657f27d2f7abf954ba55e3c529784de8,
     type: 3}
@@ -2701,7 +2707,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: 2.6
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
 =======
       value: 2.6
 >>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
@@ -2783,7 +2793,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: 2.6
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
 =======
       value: 2.6
 >>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5

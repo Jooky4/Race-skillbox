@@ -16,7 +16,11 @@ GameObject:
   m_NavMeshLayer: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967295
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
 =======
   m_StaticEditorFlags: 4294967295
 >>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
@@ -34,7 +38,11 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: 0, y: 0, z: 0}
+=======
+  m_LocalPosition: {x: 0, y: 2.6, z: 0}
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
 =======
   m_LocalPosition: {x: 0, y: 2.6, z: 0}
 >>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5

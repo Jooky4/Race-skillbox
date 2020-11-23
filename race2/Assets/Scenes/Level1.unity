@@ -430,6 +430,10 @@ GameObject:
   - component: {fileID: 343683281}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  - component: {fileID: 343683283}
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
 =======
   - component: {fileID: 343683283}
 >>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
@@ -518,9 +522,12 @@ Transform:
   m_Father: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 =======
+=======
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
 =======
 >>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
   m_RootOrder: 3
@@ -538,6 +545,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
+=======
 >>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
 =======
 >>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
@@ -622,6 +632,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 399311833}
   m_Mesh: {fileID: 4300000, guid: df0b45190aae2ee48b11b69e5d07a04f, type: 3}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &403023144
@@ -895,6 +906,8 @@ Transform:
   m_Father: {fileID: 785922306}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
 =======
 >>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
 =======
@@ -1300,7 +1313,10 @@ Transform:
   - {fileID: 1566560890}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 443907421}
+=======
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
 =======
 >>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
 =======
@@ -1341,7 +1357,11 @@ RectTransform:
   m_Father: {fileID: 1643381208}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 4
+=======
+  m_RootOrder: 3
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
 =======
   m_RootOrder: 3
 >>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
@@ -1640,7 +1660,11 @@ RectTransform:
   m_Father: {fileID: 1643381208}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 3
+=======
+  m_RootOrder: 2
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
 =======
   m_RootOrder: 2
 >>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
@@ -1894,7 +1918,11 @@ RectTransform:
   m_Father: {fileID: 1643381208}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 1
+=======
+  m_RootOrder: 0
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
 =======
   m_RootOrder: 0
 >>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
@@ -2116,7 +2144,11 @@ RectTransform:
   m_Father: {fileID: 1643381208}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 2
+=======
+  m_RootOrder: 1
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
 =======
   m_RootOrder: 1
 >>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
@@ -2208,9 +2240,15 @@ MonoBehaviour:
   textTimer: {fileID: 1080315544}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   carPrefabRed: {fileID: 3354082254532410077, guid: 325d792fcde9a5b4284ca6a33d23e425,
     type: 3}
   carPrefabBlue: {fileID: 5337477624342052548, guid: cadd9324c3e219a43a1a97607774b8f8,
+=======
+  carPrefabRed: {fileID: 1857562545172608866, guid: 657f27d2f7abf954ba55e3c529784de8,
+    type: 3}
+  carPrefabBlue: {fileID: 8863685658546890315, guid: bb7f709bfcc0de74d977db174f5e1fb7,
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
 =======
   carPrefabRed: {fileID: 1857562545172608866, guid: 657f27d2f7abf954ba55e3c529784de8,
     type: 3}
@@ -2230,7 +2268,10 @@ MonoBehaviour:
   timerGame: 5
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
 =======
 >>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
   Motor: {fileID: 8300000, guid: a26ab2b87c784374e853b3e91bdf467d, type: 3}
@@ -2239,6 +2280,9 @@ MonoBehaviour:
   DrivingCar: {fileID: 8300000, guid: 1b1b28b94d0d0fc488cffc854eedaee6, type: 3}
   SpellFinish: {fileID: 8300000, guid: eff6dd282f5763a40b461dad89db546b, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
+=======
 >>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
 =======
 >>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
@@ -2334,7 +2378,10 @@ RectTransform:
   m_Children:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 403023145}
+=======
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
 =======
 >>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
 =======
@@ -2347,7 +2394,11 @@ RectTransform:
   m_Father: {fileID: 785922306}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 2
+=======
+  m_RootOrder: 1
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
 =======
   m_RootOrder: 1
 >>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
@@ -2420,6 +2471,7 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &1834935030
@@ -2505,6 +2557,8 @@ CanvasRenderer:
 >>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
 =======
 >>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
+=======
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
 --- !u!1 &1856571878
 GameObject:
   m_ObjectHideFlags: 0
@@ -2537,7 +2591,11 @@ RectTransform:
   m_Father: {fileID: 1643381208}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 5
+=======
+  m_RootOrder: 4
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
 =======
   m_RootOrder: 4
 >>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
@@ -2724,7 +2782,11 @@ Transform:
   m_Father: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 3
+=======
+  m_RootOrder: 4
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
 =======
   m_RootOrder: 4
 >>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
@@ -2826,7 +2888,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: 2.6
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
 =======
       value: 2.6
 >>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
@@ -2908,7 +2974,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: 2.6
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
 =======
       value: 2.6
 >>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5

@@ -1,7 +1,12 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
 guid: 6f812c66c587c644b9ca74c731bb1ca7
 =======
+=======
+<<<<<<< HEAD:race2/Assets/Resources/Textures/weapon_texture/mine_1_initialShadingGroup_Height.tga.meta
+<<<<<<< HEAD
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
 <<<<<<< HEAD:race2/Assets/Resources/Textures/weapon_texture/mine_1_initialShadingGroup_Height.tga.meta
 <<<<<<< HEAD
 <<<<<<< HEAD:race2/Assets/Resources/Textures/weapon_texture/mine_1_initialShadingGroup_Height.tga.meta
@@ -9,6 +14,15 @@ guid: a5becf2511f9d6c4084b5b75a656bbaa
 =======
 guid: a64144fa5793dc84dbfb0dc5aba7b0b6
 >>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5:race2/Assets/Resources/Textures/weapon_texture/mine_1_initialShadingGroup_Normal.tga.meta
+=======
+guid: a5becf2511f9d6c4084b5b75a656bbaa
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
+=======
+guid: 6f812c66c587c644b9ca74c731bb1ca7
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5:race2/Assets/Resources/Textures/weapon_texture/mine_1_initialShadingGroup_BaseColor.tga.meta
+<<<<<<< HEAD
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
+=======
 =======
 guid: a5becf2511f9d6c4084b5b75a656bbaa
 >>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
@@ -24,10 +38,18 @@ TextureImporter:
     mipMapMode: 0
     enableMipMap: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
     sRGBTexture: 1
 =======
+=======
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
 <<<<<<< HEAD
     sRGBTexture: 0
+=======
+    sRGBTexture: 1
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
+<<<<<<< HEAD
+=======
 =======
     sRGBTexture: 1
 >>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
@@ -76,10 +98,18 @@ TextureImporter:
   alphaIsTransparency: 0
   spriteTessellationDetail: -1
 <<<<<<< HEAD
+<<<<<<< HEAD
   textureType: 0
 =======
+=======
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
 <<<<<<< HEAD
   textureType: 1
+=======
+  textureType: 0
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
+<<<<<<< HEAD
+=======
 =======
   textureType: 0
 >>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
