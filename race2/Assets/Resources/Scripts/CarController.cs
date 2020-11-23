@@ -10,7 +10,6 @@ public class CarController : MonoBehaviour {
 
     private float horInput;
     float vertInput;
-    public Vector3 additionalWheelAngle; // "костыль" для тестирования скрипта для случаев, когда колёса самопроизвольно выворачиваются в ненужную позицию в gamemode
     void FixedUpdate()
     {
         horInput = Input.GetAxis("Horizontal");//считываем пользовательские нажатия с клавиш управления машиной
@@ -51,7 +50,6 @@ public class CarController : MonoBehaviour {
 
         col.GetWorldPose(out position, out rotation);
         visWheel.position = position;
-        visWheel.rotation = rotation * Quaternion.Euler(additionalWheelAngle); 
     }
     /// <summary>
     /// Класс, описывающий одну ось автомобиля
