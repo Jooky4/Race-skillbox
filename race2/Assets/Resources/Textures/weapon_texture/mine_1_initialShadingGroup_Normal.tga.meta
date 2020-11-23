@@ -1,0 +1,227 @@
+fileFormatVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD:race2/Assets/Resources/Textures/weapon_texture/mine_1_initialShadingGroup_Normal.tga.meta
+guid: a64144fa5793dc84dbfb0dc5aba7b0b6
+=======
+guid: 2daa64abf59637248a0a85fc53b02405
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5:race2/Assets/Resources/GraficsUI/Background_Menu.png.meta
+=======
+guid: a64144fa5793dc84dbfb0dc5aba7b0b6
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
+=======
+<<<<<<< HEAD:race2/Assets/Resources/Textures/weapon_texture/mine_1_initialShadingGroup_Normal.tga.meta~merged
+<<<<<<< HEAD
+guid: a64144fa5793dc84dbfb0dc5aba7b0b6
+=======
+<<<<<<< HEAD:race2/Assets/Resources/Textures/weapon_texture/mine_1_initialShadingGroup_Height.tga.meta
+guid: a5becf2511f9d6c4084b5b75a656bbaa
+=======
+guid: a64144fa5793dc84dbfb0dc5aba7b0b6
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5:race2/Assets/Resources/Textures/weapon_texture/mine_1_initialShadingGroup_Normal.tga.meta
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
+=======
+guid: a64144fa5793dc84dbfb0dc5aba7b0b6
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5:race2/Assets/Resources/Textures/weapon_texture/mine_1_initialShadingGroup_Normal.tga.meta
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD:race2/Assets/Resources/Textures/weapon_texture/mine_1_initialShadingGroup_Normal.tga.meta
+    enableMipMap: 1
+    sRGBTexture: 0
+=======
+    enableMipMap: 0
+    sRGBTexture: 1
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5:race2/Assets/Resources/GraficsUI/Background_Menu.png.meta
+=======
+    enableMipMap: 1
+    sRGBTexture: 0
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
+=======
+    enableMipMap: 1
+    sRGBTexture: 0
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+  vTOnly: 0
+=======
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
+=======
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+<<<<<<< HEAD
+<<<<<<< HEAD
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+=======
+=======
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
+    wrapU: -1
+    wrapV: -1
+    wrapW: -1
+  nPOTScale: 1
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+<<<<<<< HEAD
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
+=======
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+<<<<<<< HEAD
+<<<<<<< HEAD
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+<<<<<<< HEAD:race2/Assets/Resources/Textures/weapon_texture/mine_1_initialShadingGroup_Normal.tga.meta
+  textureType: 1
+=======
+  textureType: 8
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5:race2/Assets/Resources/GraficsUI/Background_Menu.png.meta
+=======
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 1
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
+=======
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 1
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+  ignorePngGamma: 0
+=======
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
+=======
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+=======
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
+=======
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
+  spriteSheet:
+    serializedVersion: 2
+    sprites: []
+    outline: []
+    physicsShape: []
+    bones: []
+<<<<<<< HEAD
+<<<<<<< HEAD
+    spriteID: 5e97eb03825dee720800000000000000
+=======
+    spriteID: 
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
+=======
+    spriteID: 
+>>>>>>> fa34e7bd282d241fa74702eaf0a54c5485bd1ae5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
