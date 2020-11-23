@@ -160,7 +160,7 @@ MonoBehaviour:
     visLeftWheel: {fileID: 8863685660523798215}
     steering: 1
     motor: 1
-  carSpeed: 1000
+  carSpeed: 500
   steerAngle: 60
 --- !u!1 &8863685658561218107
 GameObject:

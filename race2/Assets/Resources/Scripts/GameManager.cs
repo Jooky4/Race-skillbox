@@ -1,13 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEditor;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-using UnityEngine.UIElements;
-//using Vector3 = System.Numerics.Vector3;
-using UnityEngine.Animations;
-using UnityEngine.Playables;
 
 public class GameManager : MonoBehaviour
 {
@@ -89,7 +82,7 @@ public class GameManager : MonoBehaviour
     {
         if ((WinVar.circlePlayerRed <= WinVar.totalCircle) 
             && (WinVar.circlePlayerRed > WinVar.circlePlayerBlue) 
-            && (SceneManager.GetActiveScene().name == "Level3"))           // Если красный игрок выполнил условия победы
+            && (SceneManager.GetActiveScene().name == "Level_3"))           // Если красный игрок выполнил условия победы
         {
             textEndGame.gameObject.SetActive(true);                  // Включение текста и вывод текста
             textEndGame.text = $"Победил красный игрок!";
@@ -97,7 +90,7 @@ public class GameManager : MonoBehaviour
         } 
         else if ((WinVar.circlePlayerBlue <= WinVar.totalCircle )
                  && (WinVar.circlePlayerBlue > WinVar.circlePlayerRed) 
-                 && (SceneManager.GetActiveScene().name == "Level3"))     // Если синий игрок выполнил условия победы
+                 && (SceneManager.GetActiveScene().name == "Level_3"))     // Если синий игрок выполнил условия победы
         {
             textEndGame.gameObject.SetActive(true);                  // Включение текста и вывод текста
             textEndGame.text = $"Победил синий игрок!";

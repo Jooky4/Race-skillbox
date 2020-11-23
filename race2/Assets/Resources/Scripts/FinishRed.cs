@@ -1,13 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Diagnostics.PerformanceData;
-using TMPro;
-using UnityEditor;
-using UnityEngine.SceneManagement;
+﻿using UnityEngine.SceneManagement;
 using UnityEngine;
 using UnityEngine.UI;
-
-//using UnityEngine.UI;
 
 public class FinishRed : MonoBehaviour
 {
@@ -26,7 +19,7 @@ public class FinishRed : MonoBehaviour
             
             // Проверка условия победы и текущего уровня                             
             if ((WinVar.circlePlayerRed < WinVar.totalCircle)         
-                && (SceneManager.GetActiveScene().name == "Level1"))
+                && (SceneManager.GetActiveScene().name == "Level_1"))
             {
                 scriptGameManager.GetComponent<GameManager>().textEndGame.gameObject.SetActive(true);
                 scriptGameManager.GetComponent<GameManager>().textEndGame.text = $"Красный быстрее!";
@@ -34,7 +27,7 @@ public class FinishRed : MonoBehaviour
             }
             // Проверка условия победы и текущего уровня
             if ((WinVar.circlePlayerRed < WinVar.totalCircle) 
-                && (SceneManager.GetActiveScene().name == "Level2"))
+                && (SceneManager.GetActiveScene().name == "Level_2"))
             {
                 scriptGameManager.GetComponent<GameManager>().textEndGame.gameObject.SetActive(true);
                 scriptGameManager.GetComponent<GameManager>().textEndGame.text = $"Красный быстрее!";
@@ -51,7 +44,7 @@ public class FinishRed : MonoBehaviour
             
             // Проверка условия победы и текущего уровня
             if ((WinVar.circlePlayerBlue < WinVar.totalCircle) 
-                && (SceneManager.GetActiveScene().name == "Level1"))
+                && (SceneManager.GetActiveScene().name == "Level_1"))
             {
                 scriptGameManager.GetComponent<GameManager>().textEndGame.gameObject.SetActive(true);
                 scriptGameManager.GetComponent<GameManager>().textEndGame.text = $"Синий быстрее!";
@@ -59,7 +52,7 @@ public class FinishRed : MonoBehaviour
             }
             // Проверка условия победы и текущего уровня
             if ((WinVar.circlePlayerBlue < WinVar.totalCircle) 
-                && (SceneManager.GetActiveScene().name == "Level2"))
+                && (SceneManager.GetActiveScene().name == "Level_2"))
             {
                 scriptGameManager.GetComponent<GameManager>().textEndGame.gameObject.SetActive(true);
                 scriptGameManager.GetComponent<GameManager>().textEndGame.text = $"Синий быстрее!";
@@ -72,14 +65,14 @@ public class FinishRed : MonoBehaviour
   
         
     }
-    private void NextLevel2()                     // Переход на следующий уровень
+    public void NextLevel2()                     // Переход на следующий уровень
     {
-        SceneManager.LoadScene("Level2"); // Запуск игровой сцены 
+        SceneManager.LoadScene("Level_2"); // Запуск игровой сцены 
     }
 
-    private void NextLevel3()                     // Переход на следующий уровень
+    public void NextLevel3()                     // Переход на следующий уровень
     {
-        SceneManager.LoadScene("Level3"); // Запуск игровой сцены 
+        SceneManager.LoadScene("Level_3"); // Запуск игровой сцены 
     }
 
 }
