@@ -8,10 +8,13 @@ public class FinishRed : MonoBehaviour
 
     void OnTriggerEnter(Collider other)                                              // Проверка на прохождение финиша
     {
-        GameObject.Find("ImageLine").GetComponent<Image>().enabled = true;
-        GameObject.Find("Finish").GetComponent<BoxCollider>().enabled = false;  // Отключение коллайдера
-        GameObject.Find("Finish").GetComponent<MeshRenderer>().enabled = false; // Отключение рендера, так как удалять его нельзя из-за повешенного на него скрипта
-        
+        if (other.gameObject.CompareTag("CarRed") || other.gameObject.CompareTag("CarBlue"))
+        {
+            GameObject.Find("ImageLine").GetComponent<Image>().enabled = true;
+            GameObject.Find("Finish").GetComponent<BoxCollider>().enabled = false; // Отключение коллайдера
+            GameObject.Find("Finish").GetComponent<MeshRenderer>().enabled = false; // Отключение рендера, так как удалять его нельзя из-за повешенного на него скрипта
+        }
+
         //--------------------------------- Проверка для красного игрока -------------------------------
         if (other.gameObject.CompareTag("CarRed"))
         {
